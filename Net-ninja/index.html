@@ -13,6 +13,13 @@
     ></script>
     <!-- v6 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script>
+      let clothes = {
+        First: "Red",
+        Second: "Yellow",
+        Third: "white",
+      };
+    </script>
     <title>Document</title>
   </head>
   <body>
@@ -23,8 +30,8 @@
           return (
             <div className='app-content'>
               <h1>Hello Ninjas</h1>
-              <p>How Old are you?</p>
-              <p>i am {Math.random()} years old</p>
+              <p>What colour of cloth do you wear?</p>
+              <p>i am {clothes.First} years old</p>
             </div>
           );
         }
